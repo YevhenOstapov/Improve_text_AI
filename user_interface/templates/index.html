@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container py-5">
+        <h1 class="text-center">Improve text AI 👨‍💻</h1>
+        <div class="my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 px-4 mb-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3>Interactive Text Editing 💬</h3>
+                            <p class="text-justify">
+                                Enhance writing with ChatGPT, an AI writing assistant available to suggest and improve text and code in real-time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-4 mb-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3>Code Optimization ✨</h3>
+                            <p class="text-justify">
+                                Our AI-enabled platform makes code editing a breeze with intelligent suggestions, reducing syntax errors and optimizing code efficiency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-4 mb-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3>Multi-Language Support 🌍</h3>
+                            <p class="text-justify">
+                                Our platform supports multiple programming and natural languages, facilitating efficient communication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-4 mb-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3>Smart Autocomplete 🔍</h3>
+                            <p class="text-justify">
+                                Our autocomplete saves time and effort with context-aware completions, like a language model on your side.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-4 mb-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3>No Ads, Completely Free! 🆓❌</h3>
+                            <p class="text-justify">
+                                Enjoy ad-free editing and coding sessions on our free platform. Focus on creating and refining content without distractions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center col-lg-6 offset-lg-3 offset-md-0 col-md-12">
+            <h2>Get Started Today! 🚀</h2>
+            <p class="text-justify">
+                Join ChatGPT for all-level inclusive platform for writers, programmers & enthusiasts to enhance editing experience.
+            </p>
+            <p class="text-justify">
+                Explore possibilities and unleash creativity with our editing features. Redefine language and code interaction.
+            </p>
+            <a href="{% url 'account:register' %}" class="btn btn-primary btn-lg">Try it now and witness the magic unfold! ✨✍️</a>
+        </div>
+    </div>
+{% endblock content %}
